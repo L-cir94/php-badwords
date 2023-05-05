@@ -12,7 +12,6 @@ var_dump(strlen($censored_paragraph));
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,6 +28,7 @@ var_dump(strlen($censored_paragraph));
 
         </div>
     </div>
+    <div class="div"></div>
 </body>
 
 </html>
