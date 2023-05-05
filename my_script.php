@@ -24,7 +24,7 @@ var_dump(strlen($censored_paragraph));
     <div class="container">
         <div class="card">
             <p><strong>Paragrafo originale </strong><span>parole totali: </strong><strong><?= strlen($paragraph) ?></span> </strong><?= $paragraph ?></p>
-            <p><strong>Paragrafo censurato </strong><span>parole totali: </strong><strong><?= strlen($censored_paragraph) ?> </strong><?= $paragraph ?></p>
+            <p><strong>Paragrafo censurato </strong><span>parole totali: </strong><strong><?= strlen($censored_paragraph) ?> </strong><?= $censored_paragraph ?></p>
 
         </div>
     </div>
